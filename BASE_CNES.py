@@ -20,14 +20,14 @@ csv = wget.download(url)
 # In[61]:
 
 
-with zipfile.ZipFile("C:\\Users\\samue\\Documents\\BASE_DE_DADOS_CNES_202201 (1).ZIP") as z:
+with zipfile.ZipFile("**diretorio**\\BASE_DE_DADOS_CNES_202201 (1).ZIP") as z:
     print(*z.namelist(),sep="\n")
 
 
 # In[65]:
 
 
-with zipfile.ZipFile("C:\\Users\\samue\\Documents\\BASE_DE_DADOS_CNES_202201 (1).ZIP") as z:
+with zipfile.ZipFile("**diretorio**\\BASE_DE_DADOS_CNES_202201 (1).ZIP") as z:
     with z.open ('tbEstabelecimento202201.csv')as f:
          microdados_cnae = pd.read_csv(f,sep=';',encoding = 'UTF-8')
 
