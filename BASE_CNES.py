@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import csv
 import pandas as pd
 import wget
@@ -42,22 +36,4 @@ microdados_cnae.head()
 
 
 microdados_cnae.columns.values
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
